@@ -1,0 +1,39 @@
+{
+  "conan": {
+    "packageId": "4604c72da6d53ff7234bc189ef2695b44e93734f",
+    "reference": "libjpeg/9d@",
+    "remote": "conan-center"
+  },
+  "library": {
+    "name": "libjpeg",
+    "reference": "libjpeg/9d"
+  },
+  "packager": {
+    "name": "node-ffi-packager",
+    "url": "https://github.com/node-ffi-packager",
+    "version": "1.0.0"
+  },
+  "platform": {
+    "headerFiles": [
+      {
+        "name": "./include/jconfig.h",
+        "path": "./include/jconfig.h.js"
+      },
+      {
+        "name": "./include/jerror.h",
+        "path": "./include/jerror.h.js"
+      },
+      {
+        "name": "./include/jmorecfg.h",
+        "path": "./include/jmorecfg.h.js"
+      },
+      {
+        "name": "./include/jpeglib.h",
+        "path": "./include/jpeglib.h.js"
+      }
+    ],
+    "libraryDependencies": {},
+    "libraryFiles": ["./lib/libjpeg.9.dylib"],
+    "name": "macos-x86_64"
+  }
+}
