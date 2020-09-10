@@ -1,0 +1,9 @@
+1599121036
+bin/libjpeg-9.dll: 72906dbc973a09907ae24b32cd900ad1
+conaninfo.txt: 54d11cf9027a2e3ef75674853d2eeace
+include/jconfig.h: ccf0253f6c9851ca97bd65c8f2e48683
+include/jerror.h: 8001f7238161aef01a3d4319f5a699c9
+include/jmorecfg.h: 95fd54daf9b8232f743dd938dfa87726
+include/jpeglib.h: 5fdab3089cd6666b77b00f2f63243082
+lib/libjpeg.dll.lib: 8cceb28994c91ae73ecd283d0637fd31
+licenses/README: 41ce79696b7cebc1e3715f19af5db026

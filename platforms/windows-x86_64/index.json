@@ -1,0 +1,39 @@
+{
+  "conan": {
+    "packageId": "127af201a4cdf8111e2e08540525c245c9b3b99e",
+    "reference": "libjpeg/9d@",
+    "remote": "conan-center"
+  },
+  "library": {
+    "name": "libjpeg",
+    "reference": "libjpeg/9d"
+  },
+  "packager": {
+    "name": "node-ffi-packager",
+    "url": "https://github.com/node-ffi-packager",
+    "version": "1.0.0"
+  },
+  "platform": {
+    "headerFiles": [
+      {
+        "name": "./include/jconfig.h",
+        "path": "./include/jconfig.h.js"
+      },
+      {
+        "name": "./include/jerror.h",
+        "path": "./include/jerror.h.js"
+      },
+      {
+        "name": "./include/jmorecfg.h",
+        "path": "./include/jmorecfg.h.js"
+      },
+      {
+        "name": "./include/jpeglib.h",
+        "path": "./include/jpeglib.h.js"
+      }
+    ],
+    "libraryDependencies": {},
+    "libraryFiles": ["./lib/libjpeg.dll.lib", "./bin/libjpeg-9.dll"],
+    "name": "windows-x86_64"
+  }
+}
