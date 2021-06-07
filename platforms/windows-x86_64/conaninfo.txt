@@ -2,7 +2,7 @@
     arch=x86_64
     build_type=Release
     compiler=Visual Studio
-    compiler.runtime=MD
+    compiler.runtime=MT
     compiler.version=16
     os=Windows
 
@@ -16,7 +16,7 @@
     arch=x86_64
     build_type=Release
     compiler=Visual Studio
-    compiler.runtime=MD
+    compiler.runtime=MT
     compiler.version=16
     os=Windows
 
@@ -27,7 +27,7 @@
     shared=True
 
 [recipe_hash]
-    49cd55b89e283cef306e31b8ce8d1d7f
+    d8215c0cf83a356fdd2d9c8454493efa
 
 [env]
 

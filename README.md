@@ -2,9 +2,9 @@
   <a href="https://github.com/node-ffi-packager"><img src="https://raw.githubusercontent.com/node-ffi-packager/resources/master/logotype/node-ffi-libraries.svg?sanitize=true" alt="node-ffi-libraries logotype, impossible cubes in orange" width="256" border="0" /></a>
 </p>
 
-# [@node-ffi-libraries/ffi-library-libjpeg-v9d](https://github.com/node-ffi-libraries/node-ffi-library-libjpeg-v9d)
+# [@ffi-libraries/libjpeg-v9d](https://github.com/node-ffi-libraries/node-ffi-library-libjpeg-v9d)
 
-[Node.js](https://nodejs.org/en/) [Foreign Function Interface (FFI)](https://en.wikipedia.org/wiki/Foreign_function_interface) package for [`libjpeg`](http://ijg.org) v9d.
+[Automatically generated](https://github.com/node-ffi-packager) [Node.js](https://nodejs.org/en/) [Foreign Function Interface (FFI)](https://en.wikipedia.org/wiki/Foreign_function_interface) package for [`libjpeg`](http://ijg.org) v9d. It is meant as a base to build feature-rich packages on top of &mdash; without the hassle of writing library bindings and building native dependencies.
 
 > **`libjpeg`**: Libjpeg is a widely used C library for reading and writing JPEG image files.
 
@@ -16,7 +16,7 @@
 
 <summary>linux-x86_64</summary>
 
-Conan package id `92b19409f9d1b1cd1ae7699ecc60ac44fc3e4f69`.
+Conan package id `f2fe22dad08bad39aab2a38cb612e26da46e90c0`.
 
 ### Library dependencies
 
@@ -30,7 +30,11 @@ No library dependencies.
 
 - [`./include/jmorecfg.h`](./platforms/linux-x86_64/include/jmorecfg.h) ([`.js`](./platforms/linux-x86_64/include/jmorecfg.h.js))
 
+- [`./include/jpegint.h`](./platforms/linux-x86_64/include/jpegint.h) ([`.js`](./platforms/linux-x86_64/include/jpegint.h.js))
+
 - [`./include/jpeglib.h`](./platforms/linux-x86_64/include/jpeglib.h) ([`.js`](./platforms/linux-x86_64/include/jpeglib.h.js))
+
+- [`./include/transupp.h`](./platforms/linux-x86_64/include/transupp.h) ([`.js`](./platforms/linux-x86_64/include/transupp.h.js))
 
 ### Library files
 
@@ -40,9 +44,39 @@ No library dependencies.
 
 <details>
 
+<summary>macos-armv8</summary>
+
+Conan package id `30acef53c04f36d5f9412c84a1b3a7434a1f10fb`.
+
+### Library dependencies
+
+No library dependencies.
+
+### Header files
+
+- [`./include/jconfig.h`](./platforms/macos-armv8/include/jconfig.h) ([`.js`](./platforms/macos-armv8/include/jconfig.h.js))
+
+- [`./include/jerror.h`](./platforms/macos-armv8/include/jerror.h) ([`.js`](./platforms/macos-armv8/include/jerror.h.js))
+
+- [`./include/jmorecfg.h`](./platforms/macos-armv8/include/jmorecfg.h) ([`.js`](./platforms/macos-armv8/include/jmorecfg.h.js))
+
+- [`./include/jpegint.h`](./platforms/macos-armv8/include/jpegint.h) ([`.js`](./platforms/macos-armv8/include/jpegint.h.js))
+
+- [`./include/jpeglib.h`](./platforms/macos-armv8/include/jpeglib.h) ([`.js`](./platforms/macos-armv8/include/jpeglib.h.js))
+
+- [`./include/transupp.h`](./platforms/macos-armv8/include/transupp.h) ([`.js`](./platforms/macos-armv8/include/transupp.h.js))
+
+### Library files
+
+- [`./lib/libjpeg.9.dylib`](./platforms/macos-armv8/lib/libjpeg.9.dylib)
+
+</details>
+
+<details>
+
 <summary>macos-x86_64</summary>
 
-Conan package id `4604c72da6d53ff7234bc189ef2695b44e93734f`.
+Conan package id `ca6b19bf89270552244fca32806dded803132e76`.
 
 ### Library dependencies
 
@@ -56,7 +90,11 @@ No library dependencies.
 
 - [`./include/jmorecfg.h`](./platforms/macos-x86_64/include/jmorecfg.h) ([`.js`](./platforms/macos-x86_64/include/jmorecfg.h.js))
 
+- [`./include/jpegint.h`](./platforms/macos-x86_64/include/jpegint.h) ([`.js`](./platforms/macos-x86_64/include/jpegint.h.js))
+
 - [`./include/jpeglib.h`](./platforms/macos-x86_64/include/jpeglib.h) ([`.js`](./platforms/macos-x86_64/include/jpeglib.h.js))
+
+- [`./include/transupp.h`](./platforms/macos-x86_64/include/transupp.h) ([`.js`](./platforms/macos-x86_64/include/transupp.h.js))
 
 ### Library files
 
@@ -68,7 +106,7 @@ No library dependencies.
 
 <summary>windows-x86_64</summary>
 
-Conan package id `127af201a4cdf8111e2e08540525c245c9b3b99e`.
+Conan package id `995e0f0b86a651012a3bfca00d60f35ae037db5e`.
 
 ### Library dependencies
 
@@ -82,11 +120,13 @@ No library dependencies.
 
 - [`./include/jmorecfg.h`](./platforms/windows-x86_64/include/jmorecfg.h) ([`.js`](./platforms/windows-x86_64/include/jmorecfg.h.js))
 
+- [`./include/jpegint.h`](./platforms/windows-x86_64/include/jpegint.h) ([`.js`](./platforms/windows-x86_64/include/jpegint.h.js))
+
 - [`./include/jpeglib.h`](./platforms/windows-x86_64/include/jpeglib.h) ([`.js`](./platforms/windows-x86_64/include/jpeglib.h.js))
 
-### Library files
+- [`./include/transupp.h`](./platforms/windows-x86_64/include/transupp.h) ([`.js`](./platforms/windows-x86_64/include/transupp.h.js))
 
-- [`./lib/libjpeg.dll.lib`](./platforms/windows-x86_64/lib/libjpeg.dll.lib)
+### Library files
 
 - [`./bin/libjpeg-9.dll`](./platforms/windows-x86_64/bin/libjpeg-9.dll)
 
@@ -95,13 +135,13 @@ No library dependencies.
 ## Installation
 
 ```shell
-npm install --save github:node-ffi-libraries/node-ffi-library-libjpeg-v9d#semver:^1.0.0
+npm install --save github:node-ffi-libraries/node-ffi-library-libjpeg-v9d#semver:^2.0.0
 ```
 
 ## Example
 
 ```javascript
-const { load } = require("@node-ffi-libraries/ffi-library-libjpeg-v9d");
+const { load } = require("@ffi-libraries/libjpeg-v9d");
 
 async function main() {
   // Lazy-loading the library and all dependencies.
@@ -111,7 +151,7 @@ async function main() {
   console.dir(library);
 
   // Lazy-load an individual header file (random example, see output from above).
-  const headerLoader = library.headers["./include/jpeglib.h"];
+  const headerLoader = library.headers["./include/jconfig.h"];
   const header = await headerLoader();
 
   // You can now use the functions and types exported by the header file.
@@ -139,17 +179,17 @@ main();
 
 ## Package information
 
-- Repository/package automatically generated by [`node-ffi-packager`](https://github.com/node-ffi-packager):
-  - Version: v1.0.0
+- Repository/package automatically generated by [`@ffi-packager/ffi-packager`](https://github.com/node-ffi-packager):
+  - Version: v2.0.0
   - Generator run by: [Joel Purra](https://joelpurra.com/)
 - Repository published to [Github](https://github.com/):
-  - Branch: [`v1.0.0`](https://github.com/node-ffi-libraries/node-ffi-library-libjpeg-v9d/tree/v1.0.0)
+  - Branch: [`v2.0.0`](https://github.com/node-ffi-libraries/node-ffi-library-libjpeg-v9d/tree/v2.0.0)
   - Repository: [`node-ffi-library-libjpeg-v9d`](https://github.com/node-ffi-libraries/node-ffi-library-libjpeg-v9d)
   - Organization: [`node-ffi-libraries`](https://github.com/node-ffi-libraries)
 - Package was _not_ published to [NPM](https://npmjs.com/).
-  - Version: `1.0.0` (based on the package generator version)
-  - Name: `@node-ffi-libraries/ffi-library-libjpeg-v9d`
-  - Organization/scope: `node-ffi-libraries`
+  - Version: `2.0.0` (based on the package generator version)
+  - Name: `@ffi-libraries/libjpeg-v9d`
+  - Organization/scope: `ffi-libraries`
 - Library binaries made available by [Conan.io](https://conan.io/):
   - Package reference: [`libjpeg/9d@`](https://github.com/conan-io/conan-center-index)
   - Conan remote: `conan-center`
@@ -161,4 +201,4 @@ main();
 
 ---
 
-[@node-ffi-libraries/ffi-library-libjpeg-v9d](https://github.com/node-ffi-libraries/node-ffi-library-libjpeg-v9d) Copyright &copy; 2020 [Joel Purra](https://joelpurra.com/). License: <a href="https://spdx.org/licenses/MIT.html">MIT</a>.
+[@ffi-libraries/libjpeg-v9d](https://github.com/node-ffi-libraries/node-ffi-library-libjpeg-v9d) Copyright &copy; 2021 [Joel Purra](https://joelpurra.com/). License: <a href="https://spdx.org/licenses/MIT.html">MIT</a>.
