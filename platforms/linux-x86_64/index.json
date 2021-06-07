@@ -1,6 +1,6 @@
 {
   "conan": {
-    "packageId": "92b19409f9d1b1cd1ae7699ecc60ac44fc3e4f69",
+    "packageId": "f2fe22dad08bad39aab2a38cb612e26da46e90c0",
     "reference": "libjpeg/9d@",
     "remote": "conan-center"
   },
@@ -9,9 +9,9 @@
     "reference": "libjpeg/9d"
   },
   "packager": {
-    "name": "node-ffi-packager",
+    "name": "@ffi-packager/ffi-packager",
     "url": "https://github.com/node-ffi-packager",
-    "version": "1.0.0"
+    "version": "2.0.0"
   },
   "platform": {
     "headerFiles": [
@@ -28,8 +28,16 @@
         "path": "./include/jmorecfg.h.js"
       },
       {
+        "name": "./include/jpegint.h",
+        "path": "./include/jpegint.h.js"
+      },
+      {
         "name": "./include/jpeglib.h",
         "path": "./include/jpeglib.h.js"
+      },
+      {
+        "name": "./include/transupp.h",
+        "path": "./include/transupp.h.js"
       }
     ],
     "libraryDependencies": {},
