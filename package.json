@@ -1,7 +1,7 @@
 {
   "name": "@ffi-libraries/libjpeg-v9d",
   "private": true,
-  "version": "2.0.0",
+  "version": "2.0.1",
   "description": "Automatically generated FFI package for libjpeg v9d: \"Libjpeg is a widely used C library for reading and writing JPEG image files.\". Available for linux-x86_64, macos-armv8, macos-x86_64, windows-x86_64.",
   "homepage": "https://github.com/node-ffi-libraries/node-ffi-library-libjpeg-v9d",
   "repository": "github:node-ffi-libraries/node-ffi-library-libjpeg-v9d",
